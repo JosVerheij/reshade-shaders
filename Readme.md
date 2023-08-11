@@ -12,6 +12,6 @@ Also works with vkBasalt.
 
 Converts full range 0-255 into limited range 16-235.
 
-This shader is intended for devices that output an incorrect video signal and/or displays that output an incorrect video signal, such that the original full RGB range is displayed as a limited range. The latter causes crushed blacks and clipped highlights.
+This shader is intended for devices that output an incorrect video signal and/or displays that apply an incorrect video signal, such that the original full RGB range is displayed as a limited range. The latter causes crushed blacks and clipped highlights.
 
 To install, simply copy the shader into the reshade shaders directory.

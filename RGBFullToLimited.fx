@@ -5,7 +5,7 @@ Convert Full RGB to Limited RGB within a Full RGB container.
 */
 
 // Full range: 0 - 255
-// Limited range: 16 - 235\
+// Limited range: 16 - 235
 
 // Note that RGBA8 uses a range of 0.0-1.0, so we also need to divide by 255.
 
