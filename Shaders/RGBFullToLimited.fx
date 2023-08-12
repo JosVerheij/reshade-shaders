@@ -17,9 +17,8 @@ float3(16.0/255.0, 16.0/255.0, 16.0/255.0);
 
 // RGB_Gain: the factor to apply to the full range RGB value
 // i.e. 255 should become 235.
-// We have to take the clamp value into account such that 235 must be 235 - 16 = 219
-static const float RGB_Gain =
-float(219.0/255.0);
+// We have to calculate the factor over the effective range, which is 235 - 16 = 219
+static const float RGB_Gain = 219.0/255.0;
 
 
 #include "ReShade.fxh"
