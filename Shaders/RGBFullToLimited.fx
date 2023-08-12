@@ -34,7 +34,7 @@ void FullToLimitedPass(float4 pos : SV_Position, float2 texcoord : TexCoord, out
 	color = saturate(color);
 }
 
-technique RGB_YUV_RGB
+technique RGB_FULL_LIMITED
 {
 	pass
 	{
