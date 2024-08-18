@@ -30,8 +30,8 @@ void FullToLimitedPass(float4 pos : SV_Position, float2 texcoord : TexCoord, out
 {
 	float4 tex = tex2D(ReShade::BackBuffer,texcoord);
 	color.r = tex.x;
-    color.g = tex.y;
-    color.b = tex.z;
+	color.g = tex.y;
+	color.b = tex.z;
 
 	color = color * RGB_Gain + RGB_Clamp;
 
