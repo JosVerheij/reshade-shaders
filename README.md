@@ -12,7 +12,7 @@ There are two ways to use Reshade shaders on the Steam deck:
 1. Using the Reshadeck plugin for Decky (this is recommended)
 2. Using vkBasalt
 
-### Reshadeck (recommended)
+### Reshadeck
 
 Using Reshadeck is recommended, as it allows you to easily enable and disable shaders from within Gamescope.
 
@@ -63,3 +63,9 @@ The Steam Deck can only output a so called *full range* signal. This is a proble
 This shader is intended for all devices that output an incorrect video signal and/or displays that apply an incorrect video signal, such that the original full RGB range is displayed within a limited range.
 
 The output remains a 0-255 signal, but all colors have been moved to the 16-235 range.
+
+## Thanks
+
+Thanks to the following people:
+
+[@groarken](https://github.com/groarken) for rewriting the RGBFullToLimited shader so that it works with Reshadeck.
