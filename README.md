@@ -2,6 +2,9 @@
 
 Some Reshade shaders that can be used with the Steam Deck. Of course, they work on non Steam Deck devices as well.
 
+1. [How to use](#how-to-use)
+2. [Shaders](#shaders)
+
 ## How to use
 
 There are two ways to use Reshade shaders on the Steam deck:
